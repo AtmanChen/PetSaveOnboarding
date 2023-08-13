@@ -32,7 +32,7 @@
 
 import SwiftUI
 
-struct PetSaveOnboardingView: View {
+public struct PetSaveOnboardingView: View {
 	@State private var currentPageIndex: Int = 0
 	private var items: [OnboardingModel] = []
 	public init(items: [OnboardingModel]) {
